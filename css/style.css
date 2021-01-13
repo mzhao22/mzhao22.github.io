@@ -131,13 +131,13 @@ footer .click {
 }
 
 .parallax .bg-1 {
-  background: #000 url("../images/collage.jpg") no-repeat center center;
+  background: #000 url("../images/php1.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   resize: both;
 }
 .parallax .bg-2 {
-  background: #000 url("../images/chicagobg1.jpg") no-repeat center center;
+  background: #000 url("../images/nm.jpeg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -370,6 +370,10 @@ img {
 /* About Page */
 .about {
   float: right;
+}
+
+.projects {
+  float:right;
 }
 
 .aboutbody {
