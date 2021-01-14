@@ -2,7 +2,7 @@
 
 body, html {
   font-family: Times New Roman, serif, sans-serif;
-  font-size: 1.1em;
+  font-size: 1em;
   background-color: #000000; /*中间meiqi's portf横条的背景颜色*/
 }
 
@@ -57,7 +57,7 @@ nav li {
 
 nav li a {
     display: block;
-    background-color: #3b2f40; /*左边标题的背景色HOME*/
+    background-color: #887ea3; /*左边标题的背景色HOME*/
     color: white;
     text-align: center;
     padding: 1em 3em;
@@ -68,8 +68,13 @@ nav li a:hover:not(.active) {
     background-color: grey;
 }
 
-nav .click {
-    background-color: #f1c01d; /*右边标题的背景色ABOUT*/
+nav .about {
+    background-color: #7e9abd; /*右边标题的背景色ABOUT*/
+    color: white;
+}
+
+nav .projects {
+    background-color: #6c7d96; /*右边标题的背景色Projects*/
     color: white;
 }
 
@@ -78,7 +83,7 @@ footer ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #f78c8c;
+    background-color: #black;
 }
 
 footer li {
@@ -87,7 +92,7 @@ footer li {
 
 footer li a {
     display: block;
-    background-color: #f1c01d;
+    background-color: #887ea3;
     color: white;
     text-align: center;
     padding: 1em 3em;
@@ -95,11 +100,16 @@ footer li a {
 }
 
 footer li a:hover:not(.active) {
-    background-color: green;
+    background-color: grey;
 }
 
-footer .click {
-    background-color: #f1c01d;
+footer .about {
+    background-color: #7e9abd;
+    color: white;
+}
+
+footer .projects {
+    background-color: #6c7d96; /*右边标题的背景色Projects*/
     color: white;
 }
 
