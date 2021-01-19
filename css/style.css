@@ -13,9 +13,10 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
-    padding-bottom: 0.7em;
-    color: white;
+    font-size: 1.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+    color: #b58aa1;
 }
 
 h3 {
@@ -35,7 +36,7 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
-/* Index Page */
+/* Home Page */
 nav {
   position: absolute;
   width: 100%;
@@ -48,7 +49,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #101721;
+    background-color: black;
 }
 
 nav li {
@@ -377,17 +378,62 @@ img {
     }
 }
 
-/* About Page */
-.about {
-  float: right;
-}
+/* Projects Page */
 
 .projects {
   float:right;
 }
 
+.projectsbody {
+  background-color: #fcf3f2;
+}
+
+.projects-h1 {
+  padding-top: 2em;
+  font-size: 1.2em;
+  margin: inherit;
+}
+
+.projects-h1 h1{
+  padding-top: 1.2em;
+  font-size: 1.6em;
+    color: #a63802;
+}
+
+.projects-container {
+  text-align:left;
+  display: block;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.projects-container p {
+  font-size: 1.2em;
+  color: brown;
+}
+
+.projects-parallax .projects-bg-break {
+  background: #000 url("../images/chicagobg3.jpg") no-repeat center center;
+  background-size:cover;
+  height: 40em;
+  background-attachment: fixed;
+}
+
+.note {
+  text-align: center;
+  display: block;
+  padding: 2em;
+}
+
+
+
+/* About Page */
+.about {
+  float: right;
+}
+
 .aboutbody {
-  background-color: #f9e3e6;
+  background-color: #f5e1e7;
 }
 
 .about-h1 {
@@ -415,7 +461,7 @@ img {
 }
 
 .about-parallax .about-bg-break {
-  background: #000 url("../images/chicagobg3.jpg") no-repeat center center;
+  background: #000 url("../images/crookedsunrise.jpg") no-repeat center center;
   background-size:cover;
   height: 40em;
   background-attachment: fixed;
