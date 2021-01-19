@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 body, html {
   font-family: Times New Roman, serif, sans-serif;
@@ -79,40 +79,6 @@ nav .projects {
     color: white;
 }
 
-footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #black;
-}
-
-footer li {
-    float: left;
-}
-
-footer li a {
-    display: block;
-    background-color: #887ea3;
-    color: white;
-    text-align: center;
-    padding: 1em 3em;
-    text-decoration: none;
-}
-
-footer li a:hover:not(.active) {
-    background-color: grey;
-}
-
-footer .about {
-    background-color: #7e9abd;
-    color: white;
-}
-
-footer .projects {
-    background-color: #6c7d96; /*右边标题的背景色Projects*/
-    color: white;
-}
 
 /* Top Part */
 
@@ -227,7 +193,7 @@ article section.parallax {
 
 @media screen and (max-width: 400px) {
     body, html {
-      font-family:'Dosis', sans-serif;
+      font-family:'Quicksand', sans-serif;
       font-size: 1em;
     }
 
@@ -261,16 +227,6 @@ article section.parallax {
       display: none;
       }
 
-    .grid-container {
-      display: block;
-      grid-template-columns: auto;
-      padding: 0em;
-    }
-    .grid-item {
-      padding: inherit;
-      font-size: 1.2em;
-      text-align: left;
-    }
   img {
     width: 100%;
     height: auto;
@@ -279,7 +235,7 @@ article section.parallax {
 
 @media screen and (min-width: 401px) and (max-width: 720px) {
   body, html {
-    font-family:'Dosis', sans-serif;
+    font-family:'Quicksand', sans-serif;
     font-size: 1em;
   }
   h1 {
@@ -385,7 +341,7 @@ img {
 }
 
 .projectsbody {
-  background-color: #fcf3f2;
+  background-color: #f0f1fa;
 }
 
 .projects-h1 {
@@ -409,20 +365,20 @@ img {
 
 .projects-container p {
   font-size: 1.2em;
-  color: brown;
+  color: #590d1a;
 }
 
 .projects-parallax .projects-bg-break {
-  background: #000 url("../images/chicagobg3.jpg") no-repeat center center;
+  background: #000 url("../images/galenaschool.jpg") no-repeat center center;
   background-size:cover;
   height: 40em;
   background-attachment: fixed;
 }
 
-.note {
+.projects-note {
   text-align: center;
   display: block;
-  padding: 2em;
+  padding: 0em;
 }
 
 
@@ -433,7 +389,7 @@ img {
 }
 
 .aboutbody {
-  background-color: #f5e1e7;
+  background-color: #f9f2ff;
 }
 
 .about-h1 {
@@ -445,7 +401,7 @@ img {
 .about-h1 h1{
   padding-top: 1.2em;
   font-size: 1.6em;
-    color: brown;
+    color: #590d1a;
 }
 
 .about-container {
@@ -457,11 +413,11 @@ img {
 
 .about-container p {
   font-size: 1.2em;
-  color: brown;
+  color: #5b5463;
 }
 
 .about-parallax .about-bg-break {
-  background: #000 url("../images/crookedsunrise.jpg") no-repeat center center;
+  background: #000 url("../images/galenahouse.jpg") no-repeat center center;
   background-size:cover;
   height: 40em;
   background-attachment: fixed;
@@ -470,7 +426,55 @@ img {
 .note {
   text-align: center;
   display: block;
-  padding: 2em;
+  padding: 0.5em;
+}
+
+/* Projects Page Media Queries */
+
+@media screen and (max-width: 400px) {
+
+  .projects-parallax .about-bg-break {
+    display: none;
+  }
+
+  .projects-h1 {
+    font-size: 0.8em;
+    margin: inherit;
+  }
+
+  .projects-container {
+    text-align: inherit;
+    display: inline;
+  }
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 720px) {
+  .projects-h1 {
+    font-size: 1em;
+    margin: inherit;
+  }
+
+  .projects-container {
+    text-align:left;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1200px) {
+  .projects-h1 {
+    font-size: 1em;
+    margin: inherit;
+  }
+
+  .projects-container {
+    text-align:left;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 /* About Page Media Queries */
