@@ -516,6 +516,11 @@ img {
     display: inline;
   }
 
+  img {
+    width: 100%;
+    height: auto;
+  }
+
 }
 
 @media screen and (min-width: 401px) and (max-width: 720px) {
@@ -530,7 +535,12 @@ img {
     padding-left: 1em;
     padding-right: 1em;
   }
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
+
 
 @media screen and (min-width: 721px) and (max-width: 1200px) {
   .projects-h1 {
@@ -544,6 +554,12 @@ img {
     padding-left: 1em;
     padding-right: 1em;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
 }
 
 /* About Page Media Queries */
