@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding-bottom: 0.5em;
   color: white;
 }
@@ -152,7 +152,7 @@ footer .projects {
   background-attachment: fixed;
 }
 .parallax .bg-break {
-  box-shadow: inset 0 0 1em #c4c1c1;
+
   background: #000 url("../images/littlesun.jpg") no-repeat center center;
   background-size:cover;
   height: 35em;
